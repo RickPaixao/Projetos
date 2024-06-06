@@ -13,7 +13,7 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
 
         if (usuario) {
             alert('Login bem-sucedido!');
-            window.location.href = 'http://127.0.0.1:5500/Projeto%20filme/cadastro.html';
+            window.location.href = './cadastro.html';
         } else {
             alert('Usuário ou senha incorretos.');
         }
