@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./admin/css/style.css">
+    <title>Cadastro de Filmes</title>
+    <script src="./admin/js/gerenciamento_filmes.js" defer type="module"></script>
+</head>
+<body>
+    <header>
+        Sistema de Gerenciamento de Filmes 
+    </header>
+
+    <div id="principal">
+        <h1>Cadastro de Filmes</h1>
+        <form id="form" method="post">
+            <label>Nome</label> 
+            <input type="text" name="txt_nome" id="nome" ><br>
+            <label>Sinopse</label> 
+            <textarea id="sinopse"></textarea><br>
+            <label>Imagem</label> 
+            <input type="text" name="txt_image" id="image" ><br>
+            <label>Valor</label> 
+            <input type="text" name="txt_valor" id="valor" ><br>
+            <div id="Salvar"> Salvar </div>
+        </form>
+    </div>
+
+    <div id="listFilmes">
+        <h1> Listagem de Filmes </h1>
+        <div class="linha">
+            <div class="titulo">Nome</div>
+            <div class="titulo">Sinopse</div>
+            <div class="titulo">Valor</div>
+            <div class="titulo">Opções</div>
+        </div>
+        <div id="listDados">
+        </div>
+       
+    </div>
+
+    <footer>
+        <span>Desenvolvido por: Henrique, Felipe e Gabriel </span>
+    </footer>
+</body>
+</html>
